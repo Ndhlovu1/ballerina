@@ -20,7 +20,6 @@ output : "Hello World"
 
 ```
 
-
 ### Screenshot of Example1
 ![Screenshot from 2023-08-20 15-42-17](https://github.com/Ndhlovu1/ballerina/assets/46927702/f60bd149-e809-41f0-81df-531ec0707995)
 
