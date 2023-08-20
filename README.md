@@ -8,7 +8,18 @@ ALL I ASK IS THAT YOU STAR⭐ THIS REPOSITORY AND
 FORK IT SOO THAT IF IT IS REMOVED FROM MY PUBLIC REPOS, 
 YOU WILL HAVE ACCESS TO IT
 ```
-## ESSENTIAL COMMANDS AND STEPS
+## ESSENTIAL COMMANDS AND STEPS TO RUN BALLERINA AS A SERVICE AND AS A MODULE
+
+1. Create a file with the extension of `.bal `at the end, e.g helloWorld.bal
+2. Ensure all your codes end with a semi-colon
+
+```shell
+bal run helloWorld.bal
+
+output : "Hello World"
+
+```
+
 
 ### Screenshot of Example1
 ![Screenshot from 2023-08-20 15-42-17](https://github.com/Ndhlovu1/ballerina/assets/46927702/f60bd149-e809-41f0-81df-531ec0707995)
