@@ -16,12 +16,14 @@ function foo() returns () {
     return ();
 }
 int vote_age = 18;
+
 function canVote(int age){
-    if(age >= age) {
-        io:print("Congrats, you can vote! AGE : [",age,"]years old! \n");
+    if(age >= vote_age) {
+        io:print("Congrats, you can vote! AGE : [ ",age," ]years old! \n");
     }
     else {
-        io:print("Sorry age must be 18+ to vote");
+        int time_to_vote = vote_age - age;
+        io:print("Sorry age must be [ 18+ ] to vote,you are [ ",age," ]years old. You still have ",time_to_vote,"years left to vote\n") ;
     }
 }
 
