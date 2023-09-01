@@ -54,9 +54,37 @@ function congratsGrad(int age, string name){
 
     else {
         io:print("ENTER [AGE AS A NUMBER] AND NAME TO SUCCEED\n");
-        
     }
+}
 
+# COMPARING DATA TYPES
+#   The `if` statement can be used for type checking
+#       
+#       int | string newScore = 21
+#       
+#       if newScore is int {
+#           io:println(newScore)
+#           }
+#       else{
+#           io:println("Score is not an integer")
+#           }
+# 
+
+// FUNCTION TO GET STUDENT GRADES
+function getGrades(int score) returns string {
+    // Parentheses are optional in conditions.
+    // However, curly braces are required in `if/else` statements.
+    if 0 < score && score < 55 {
+        return "F";
+    } else if 55 <= score && score < 65 {
+        return "C";
+    } else if 65 <= score && score < 75  {
+        return "B";
+    } else if 75 <= score && score <= 100 {
+        return "A";
+    } else {
+        return "Invalid grade";
+    }
 }
 
 public function main() {
@@ -65,12 +93,22 @@ public function main() {
     canVote(10);
     canVote(23);
     canVote(6);
+    
     io:print("\n------ RUNNING NAME & AGE SURPRISE ---------\n ");
     congratsGrad(20, "Tino");
     congratsGrad(18, "Samantha");
     congratsGrad(23,"Ndhlovu1");
-        
 
+    io:print("\n------ RUNNING NAME & AGE SURPRISE ---------\n ");
+    int | string newScore = 26;
+
+    if (newScore is int) {
+        io:println(getGrades(newScore));
+    }
+    else {
+        io:println("ONLY NUMBERS ALLOWED");
+    }
+ 
     
 }
 
