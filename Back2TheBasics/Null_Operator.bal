@@ -75,13 +75,13 @@ function getGrades(int score) returns string {
     // Parentheses are optional in conditions.
     // However, curly braces are required in `if/else` statements.
     if 0 < score && score < 55 {
-        return "F";
+        return "YOU FAILED WITH : F";
     } else if 55 <= score && score < 65 {
-        return "C";
+        return "YOU BARELY PASSED : C";
     } else if 65 <= score && score < 75  {
-        return "B";
+        return "YOU CAN DO BETTER : B";
     } else if 75 <= score && score <= 100 {
-        return "A";
+        return "AMAZING STUFF! : A";
     } else {
         return "Invalid grade";
     }
