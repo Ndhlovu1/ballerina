@@ -19,10 +19,10 @@ bal run helloWorld.bal
 output : "Hello World"
 
 ```
+## PROGRAM SCREENSHOTS
+![Screenshot from 2023-09-01 23-47-43](https://github.com/Ndhlovu1/ballerina/assets/46927702/e268d4a7-b98e-4d46-9556-e4e22193c1a4)
 
-### Screenshot of Example1
 ![Screenshot from 2023-08-20 15-42-17](https://github.com/Ndhlovu1/ballerina/assets/46927702/f60bd149-e809-41f0-81df-531ec0707995)
 
-### Screenshot of Example2 - Running Ballerina as a Hosted Web Service Starter
 ![Screenshot from 2023-08-20 15-40-45](https://github.com/Ndhlovu1/ballerina/assets/46927702/10692179-79e4-428f-a32d-22c7f1f4ed39)
 
