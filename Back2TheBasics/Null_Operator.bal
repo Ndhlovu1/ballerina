@@ -15,7 +15,23 @@ int num2 = num ?: 0; // This will return NUM if it is NOT NIL else it will retur
 function foo() returns () {
     return ();
 }
+int vote_age = 18;
+function canVote(int age){
+    if(age >= age) {
+        io:print("Congrats, you can vote! AGE : [",age,"]years old! \n");
+    }
+    else {
+        io:print("Sorry age must be 18+ to vote");
+    }
+}
+
 public function main() {
-    io:print(num2);
+    io:print(num2,"\n");
+    //Call the CanVote Function
+    canVote(10);
+    canVote(23);
+    canVote(6);
+
+    
 }
 
